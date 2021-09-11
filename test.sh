@@ -1,9 +1,11 @@
 #!/bin/bash
 echo "enter the value of a"
 read a
-if [ $a -gt 5 ]
+echo "enter the value of b"
+read b
+if [ $a -gt $b ]
 	then
-		echo "enter no is euqual to 5"
+		echo "The value of $a is greater than value $b"
 	else
-		echo "not equal to 5"
+		echo "$b is lesser than $a"
 fi
